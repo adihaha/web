@@ -1,0 +1,614 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+<title>格力暑热防卫战</title>
+<link href="css/20170721/20170721waphuodong.css" rel="stylesheet" type="text/css" />
+<script src="js/20170721/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" language="javascript">
+function Show_Hidden(trid){
+    if(trid.style.display=="block"){
+        trid.style.display='none';
+    }else{
+        trid.style.display='block';
+    }
+}
+
+$(document).ready(function(e) {
+    
+	var close = document.getElementById('close')
+	var myfenlei = document.getElementById('myfenlei')
+	close.onclick = function(){
+		myfenlei.style.display = 'none';
+		}
+	$("#myfenlei div a").click(function(){
+	
+		$index=$("#myfenlei div a").index($(this)) + 1;
+		//alert($index);
+		var aa=$("#f"+$index).offset().top;
+		$('body,html').animate({
+			scrollTop: aa-40
+		},
+		800);
+
+		
+	})
+	
+	
+});	
+</script> 
+</head>
+<body>
+<div class="waper">
+   <div class="Ghang40"></div>
+   <div class="topbanner"><img src="images/20170721/0721wap_01.jpg"  border="0" /></div>
+   <div class="clear"></div>
+
+   
+   
+<!--区域-->  
+ <div id="f1">
+    <div class="gg"><img src="images/20170721/0721wap_02.jpg"  border="0" /></div>
+ </div>
+ <div class="clear"></div>
+     <div style="background-color:#8bf0ea">
+      <ul class="box">
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        <a href="#"><li>广州</li></a>
+        
+        <p class="tog">展开</p>
+      </ul></div>
+<script>
+var len=$(".box li").length;
+function int(){
+for(i=8;i<len;i++){
+$(".box li").eq(i).addClass("hid");   
+}
+}
+$(".tog").click(function(){
+var t=$(this).text();
+if(t=="展开"){
+$(".box .hid").addClass("show");
+$(this).text("收缩");
+}else{
+$(".box .hid").removeClass("show");
+$(this).text("展开");
+}  
+});
+int();//初始化隐藏多余标签
+</script>
+ </div>
+
+<!--区域end-->
+ <div class="clear"></div>
+ <!--空调-->
+  <div id="f2">
+     <div class="gg"><img src="images/20170721/0721wap_04.jpg" /></div>
+     <div class="ktpic">
+         <div class="pic"><img src="images/20170721/0721wapkt_05.jpg" /></div>
+         <a href="1" class="hot-link" style="top:58.63%; left:4%; width:46.5%; height:18.12%;"></a>
+         <a href="2" class="hot-link" style="top:58.63%; left:48.5%; width:46.5%; height:18.12%;"></a>
+         <a href="3" class="hot-link" style="top:76.75%; left:4%; width:46.5%; height:18.12%;"></a>
+         <a href="4" class="hot-link" style="top:76.75%; left:48.5%; width:46.5%; height:18.12%;"></a>
+     </div>
+     <div class="clear"></div>
+     <div class="ktpic">
+         <div class="pic"><img src="images/20170721/0721wapkt_06.jpg" /></div>
+         <a href="1" class="hot-link" style="top:52%; left:0%; width:100%; height:18.12%;"></a>
+         <a href="2" class="hot-link" style="top:70.75%; left:0%; width:50%; height:23%;"></a>
+         <a href="3" class="hot-link" style="top:70.75%; left:50%; width:50%; height:23%;"></a>
+     </div>
+     <div class="clear"></div>
+     <div class="ktpic">
+         <div class="pic"><img src="images/20170721/0721wapkt_07.jpg" /></div>
+         <a href="1" class="hot-link" style="top:54.27%; left:0%; width:50%; height:22.72%;"></a>
+         <a href="2" class="hot-link" style="top:76.99%; left:0%; width:100%; height:23%;"></a>
+     </div>
+     <div class="clear"></div>
+     <div class="ktpic">
+         <div class="pic"><img src="images/20170721/0721wapkt_09.jpg" /></div>
+         <a href="1" class="hot-link" style="top:36.23%; left:4%; width:46%; height:28.98%;"></a>
+         <a href="2" class="hot-link" style="top:65.82%; left:4%; width:46%; height:28.98%;"></a>
+     </div>
+     <div class="clear"></div>
+  </div> 
+<!--空调end-->
+   <div class="clear"></div>
+<!--风扇-->
+<div id="f3">
+  <div class="gg"><img src="images/20170721/0721wap_29.jpg" /></div>
+  <div class="clear"></div>
+
+    <div class="gg">
+      <div class="left"><a href="#"><img src="images/20170721/0721wap_30.jpg" /></a></div>
+      <div class="right"><a href="#"><img src="images/20170721/0721wap_31.jpg" /></a></div>
+    </div>
+    <div class="clear"></div>
+     <div class="gg">
+      <div class="left"><a href="#"><img src="images/20170721/0721wap_32.jpg" /></a></div>
+      <div class="right"><a href="#"><img src="images/20170721/0721wap_33.jpg" /></a></div>
+    </div>
+    <div class="clear"></div>
+    
+ <div class="product">
+       <div class="cp-like">
+	 <ul>
+     <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+     <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+      <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+      <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+      <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+      <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+    </ul>
+</div>
+    </div>
+</div>
+
+   <div class="clear"></div>
+<!--风扇end-->
+<!--生活电器-->
+<div id="f4">
+  <div class="gg"><img src="images/20170721/0721wap_35.jpg" /></div>
+  <div class="clear"></div>
+   
+     <div class="gg">
+      <div class="left"><a href="#"><img src="images/20170721/0721wap_36.jpg" /></a></div>
+      <div class="right"><a href="#"><img src="images/20170721/0721wap_37.jpg" /></a></div>
+    </div>
+    <div class="clear"></div>
+     <div class="gg">
+      <div class="left"><a href="#"><img src="images/20170721/0721wap_38.jpg" /></a></div>
+      <div class="right"><a href="#"><img src="images/20170721/0721wap_39.jpg" /></a></div>
+    </div>
+    <div class="clear"></div>
+<div class="product">
+       <div class="cp-like">
+	 <ul>
+     <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+     <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+      </ul>
+       </div>
+ </div>
+</div>
+<!--生活电器end-->
+<!--冰箱-->
+<div id="f5">
+  <div class="gg"><img src="images/20170721/0721wap_41.jpg" /></div>
+  <div class="gg"><a href="#"><img src="images/20170721/0721wap_42.jpg" /></a></div>
+  <div class="gg"><a href="#"><img src="images/20170721/0721wap_43.jpg" /></a></div>
+  <div class="clear"></div>
+  <div class="product">
+       <div class="cp-like">
+	 <ul>
+     <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+     <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+       <a href="#">
+        <li>  
+        	<div class="img"><img src="images/20170721/like_1.jpg"/></div>                                         
+            <div class="name">
+                <h2>净化器</h2>节水控压长寿使用
+            </div>
+            <div class="price">
+                 <font class="xh">8kg洗涤量</font>
+            </div>
+            <div class="xj_price"><font>促销：￥</font>1896.00</div>
+        </li>
+      </a>
+      </ul>
+       </div>
+ </div>
+</div>
+
+
+<!--冰箱end-->
+<div class="clear"></div>
+<!--洗衣机-->
+<div id="f6">
+  <div class="gg"><img src="images/20170721/0721wap_45.jpg" /></div>
+  <div class="gg"><a href="#"><img src="images/20170721/0721wap_46.jpg" /></a></div>
+  <div class="gg"><a href="#"><img src="images/20170721/0721wap_47.jpg" /></a></div>
+  <div class="gg">
+     <div class="left"><a href="#"><img src="images/20170721/0721wap_48.jpg" /></a></div>
+     <div class="right"><a href="#"><img src="images/20170721/0721wap_49.jpg" /></a></div> 
+  </div>
+</div>
+<div class="clear"></div>
+<!--洗衣机end-->
+    <div id="allcp"><a href="#"><img src="images/20170721/0721wap_50.jpg" /></a></div>
+    <div id="btn-bottom">
+            <a href="https://m.gree.com/mall/WapUserLogonView?catalogId=10001&langId=-7&storeId=10651"><div class="btn-login">登录</div></a>
+            <a href="https://m.gree.com/mall/WapUserRegisterView?catalogId=10001&langId=-7&storeId=10651"><div class="btn-reg">注册</div></a>
+            <a href="#"><div class="btn-top">返回顶部</div></a>
+     
+    </div>
+     
+</div>
+
+       <!--分类底部--> 
+       
+    <div class="hang"></div>
+    <div id="ibmfoot"><a  onclick="Show_Hidden(myfenlei)" style="color:#FFF; font-size:20px; font-family:微软雅黑;">查看活动分类</a></div>
+    <div id="myfenlei"  style="display:none;">
+      <div class="flys"><a style="color:#FFF; font-size:20px;">区域专享</a></div>
+      <div class="flys"><a  style="color:#FFF; font-size:20px;">空调</a></div>
+      <div class="flys"><a  style="color:#FFF; font-size:20px;">风扇</a></div>
+      <div class="flys"><a  style="color:#FFF; font-size:20px;">生活电器</a></div>
+      <div class="flys"><a  style="color:#FFF; font-size:20px;">冰箱</a></div>
+      <div class="flys"><a  style="color:#FFF; font-size:20px;">洗衣机</a></div>
+      <a id="close" href="javascript:;"> <img src="images/20170721/btn.png"  border="0" /></a>
+    </div>
+    <!--分类底部end-->
+
+</div>
+
+</body>
+</html>
